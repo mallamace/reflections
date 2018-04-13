@@ -1,0 +1,71 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Viewing each line using diff make it very apparent to quickly see which lines were different and take notice to any issues from those lines to make corrections.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+I have done this before with Wordpress and other tools like Wikipedia. When looking at the entire history I can identify abuses where there was melicious code attached or simply who made the update so I can speak to the responsible person.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+The pro is that you're always doing this conciously and saving a version. I do this within a system called teamworks right now, I like to be able to tell my team if the version I updated is entirely new, or if its a small update that doesn't require them much time to find the different.
+
+The obvious downside of manual updating is that it's manual and takes you O(n) times to make these updates version an automatic update of O(1).
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is meant for larger scale productivity across multiple files which may be connected. This is a common programming requirement using things like OOP. Google Doc files are independant and allow for a more granular approach to version control.
+
+How can you use the commands git log and git diff to view the history of files?
+
+I would use git log and git diff mostly in the case where I needed to identify an error in my code.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+I'm able to save a change which I can come back to and know that if it was a catastropic issue this can easily be resolved.
+  
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I need a place where I can share and collaborate with other developers.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+[Nathan] Entire history access means that I'm not needing to guess when I might have made an old mistake. I can track down the issue and resolve it.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+[Nathan] Mannually choosing a commit con means that you might lose important changes and because making a Git commit is very subjective, when working with a team some team might not see the same reason to commit where others in a team might follow a different workflow. This can create inconsistancy.
+
+The pro is that there is always a communicated reason and a purpose for a commit so there is always a logical reason this is much more aventageous. 
+
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+[Nathan] Version Control Systems like Git support projects where the files might be interconnected, where as a document in Google Docs does not have associated files. Even if a Google Doc was, to say, had multiple chapters, this would still be contained within one document likely
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+You can find the history of commits by using git log and then scanning the files to see where there might be differences in those files. For me it's like looking at Wikipedia for where there were changes between two entries.
+
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+[Nathan] I will be honest, I still don't think I would have entire confidence that I could break something and come back to it and start as if nothing happened. My first concern is regarding the time that I spent to get to this point with a bug. While it's plausable that I could track down an issue to where it was introduced, I don't think it's the most efficient way. I think testing would be a much better way.
+
+I would be more confident however if I'm working in a large team, I could analalze commit-by-commit and track down the source of an issue.
+
+
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to track my versions with my Android App
+
+    
